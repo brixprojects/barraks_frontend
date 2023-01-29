@@ -7,8 +7,7 @@ import TextField from '@mui/material/TextField';
 import Brix from '../assets/Me.jpg';
 
 
-
-const Login=()=>{
+function Login() {
 
 
     const paperStyle={padding :20,height:'70vh',width:400, margin:"20px auto"}
