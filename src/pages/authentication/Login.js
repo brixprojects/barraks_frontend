@@ -11,7 +11,7 @@ import TextField from '@mui/material/TextField';
 const Login=()=>{
 
 
-    const paperStyle={padding :20,height:'70vh',width:400, margin:"20px auto"}
+    const paperStyle={padding :20,height:'50vh',width:400, margin:"20px auto",}
     const btnstyle={margin: '8px 0',}
     return (
         <Grid>
@@ -20,8 +20,12 @@ const Login=()=>{
                 <h1> Hi, Welcome Back</h1>
                 {/* <Avatar alt src={Brix}/> */}
                 </Grid>
-                <TextField label='Email Address/Username' placeholder='username' variant="standard" fullWidth required/>
-                <TextField label='PASSWORD' placeholder='password' variant="standard" type='password' fullWidth required/>
+                <p>Email Address
+                <TextField  placeholder='Email Address' variant="outlined" fullWidth required/>
+                </p>
+                <p>Password
+                <TextField  placeholder='Password' variant="outlined" type='password' fullWidth required/>
+                </p>
                 <FormControlLabel 
                 control={
                 <Checkbox
